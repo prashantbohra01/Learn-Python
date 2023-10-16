@@ -17,7 +17,13 @@ for x in color:
 #Example 3:
 
 for n in range(5):
-   print(n)
+   print(n)             #this will start from 0
 
 for k in range(0,7):
-   print(k+1)
+   print(k+1)           #this will start from 1
+
+
+'''
+   A for loop is used for iterating over a sequence 
+   (that is either a list, a tuple, a dictionary, a set, or a string).
+'''
