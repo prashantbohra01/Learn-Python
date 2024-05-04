@@ -60,3 +60,6 @@ name = input("Enter the name of student: ")
 grade = input("Enter the grade of student: ")
 age = input("Enter the age of student: ")
 ph = input("Enter the ph no. of student: ")
+
+
+
