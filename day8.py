@@ -13,4 +13,4 @@ print(fruit[0:4]) # We can use this method to print from a specific string value
 print(len(fruit)) 
 print(len(name))  # We can use this method to print the length of whole string.
 
-print(name[1:-4])
+print(name[1:-3])
