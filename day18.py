@@ -1,12 +1,15 @@
 #___Tuples______
 
-tup=(1,2,3,4)
+tup = (1,2,3,4)
+tup1 = 1,2,3,4
 print(type(tup), tup)
+print(type(tup1), tup1)
 
 '''
     Tuples are ordered collections of data items. They store multiple
     items in a single variable. Tuple items are separated by commas and 
-    enclosed within round brackets(). Tuples are unchangable, we can not alter after creation.
+    may or may not enclosed within round brackets(). Tuples are unchangable, 
+    we can not alter after creation.
 '''
 
 if 4 in tup:
@@ -21,10 +24,13 @@ if 4 in tup:
     and convert it back to tuple.  
 '''
 countries = ("US", "Italy", "France", "India", "Japan")
+
 temp=list(countries) # to convert tuple into list
+
 temp.append("Australia") #add item
 temp.pop(2) #remove item
 temp[3]= "Russia" #change item
+
 countries = tuple(temp) # to convert list into tuple
 
 print(countries)  
@@ -41,3 +47,21 @@ print (res)
 # length() method
 res= len(tuple)
 print (res)
+
+# Some Problems
+
+Student_data = {"name":"David", "age":13, "marks": 87}
+print(type(Student_data))
+
+# 1. Convert the following dictionary into JSON format.
+
+import json
+
+data = json.dumps(Student_data)
+print(data)
+print(type(data))
+
+# 2. Access the value of age from the given data. 
+
+data = json.loads(Student_data)
+print(data["age"])
