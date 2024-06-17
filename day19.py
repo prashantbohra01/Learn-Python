@@ -6,4 +6,6 @@ name="Prashant"
 
 print(m.format(name, country)) #old format
 
-print(f"Hey I'm {name} and I'm from {country}.")
+
+
+print(f"Hey I'm {name} and I'm from {country}.") #fstring
